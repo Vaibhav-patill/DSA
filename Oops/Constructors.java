@@ -5,7 +5,7 @@ public class Constructors {
         System.out.println(s1.name);
         Student s2=new Student(5);
         System.out.println(s2.roll);
-        Student s3=new Student();
+        Student s3=new Student("Vaibhav",27);
     }
 }
 
@@ -18,10 +18,6 @@ class Student{
         
     }
 
-    // Student(){ // non parameterized constructor
-
-    // }
-
     Student(){
         System.out.println("constructor is called");
     }
@@ -30,4 +26,11 @@ class Student{
         this.roll=roll;
 
     }
+
+     Student(String name, int roll) {
+        this.name = name;
+        this.roll = roll;
+    }
+
+    
 }

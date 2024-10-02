@@ -1,5 +1,6 @@
 
 
+
 public class Strings {
     public static void printLetters(String array){
         for (int i = 0; i < array.length(); i++) {
