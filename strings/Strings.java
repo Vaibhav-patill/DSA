@@ -41,8 +41,8 @@ public class Strings {
 
        //substring
 
-       String sub="HeloWorld";
-       System.out.println(sub.substring(0, 4));
+       String sub="HelloWorld";
+       System.out.println(sub.substring(0, 5));
 
     }
 }

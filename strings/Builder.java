@@ -3,9 +3,9 @@ public class Builder {
         StringBuilder sb=new StringBuilder("");
    
        for(char ch ='a';ch<='z';ch++){
-       sb.append(ch);
+       sb.append(ch); 
         }
-        System.out.print(sb);
+        System.out.print(sb + "  ");
     }
 
 }
