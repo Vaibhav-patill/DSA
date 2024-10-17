@@ -12,4 +12,4 @@ public class Checkbit {
         System.err.println(checkbit(10, 2));
     }
 }
-  
+   
