@@ -14,6 +14,8 @@ public class Swap {
        int a=5;
        int b=10; 
        Swapping(a, b);
+       System.out.println("a="+a);
+       System.out.println("b="+b);
 
     }
 }
