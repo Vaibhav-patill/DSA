@@ -3,7 +3,7 @@ public class Binary {
         System.out.println(5&4);//binary AND operator
         System.out.println(5|4);//binary OR operator
         System.out.println(5^4);//binary XOR operator
-        System.out.println(~5);//binary one's  compliment
+        System.out.println(~ 5);//binary one's  compliment
     }
 }
 
