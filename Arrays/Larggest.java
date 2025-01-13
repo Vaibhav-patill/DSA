@@ -14,7 +14,7 @@ public class Larggest {
         // }
         // System.out.println("smallest value is "+smallest);
         // return largest;
-        int largest=0;
+        int largest=Integer.MIN_VALUE;
         for (int i = 0; i < num.length; i++) {
             if(num[i] > largest){
                 largest=num[i];
@@ -24,7 +24,7 @@ public class Larggest {
 
     }
     public static void main(String[] args) {
-        int num[]={1,2,6,3,5};
+        int num[]={1,2,6,7,5};
         System.out.println("largest value is "+getLargest(num));
 
     }

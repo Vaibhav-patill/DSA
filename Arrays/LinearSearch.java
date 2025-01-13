@@ -20,7 +20,7 @@ public class LinearSearch {
     }
    public static void main(String[] args) {
 
-    //these is linear serach for integer
+    //these is linear search for integer
     int numbers[]={2,4,6,8,10,12,14,16};
     int key=10;
 
@@ -32,7 +32,7 @@ public class LinearSearch {
     }
 
 
-    //these is linear serach for string
+    //these is linear search for string
     String food[]={"dosa","samosa","idli","vada","puri  bhaji","chole bhature","pav bhaji"};
     String key2="puri bhaji";
 
