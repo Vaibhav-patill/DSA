@@ -1,3 +1,4 @@
+
 public class SpiralMatrix {
 public static void printSpiral(int matrix[][]){
      int startRow=0;
@@ -22,7 +23,7 @@ public static void printSpiral(int matrix[][]){
                 break;
             }
             
-            System.out.print(matrix[endCol][j]+" ");
+            System.out.print(matrix[endRow][j]+" ");
         }
 
         //left
