@@ -1,6 +1,3 @@
-
-
-
 public class Strings {
     public static void printLetters(String array){
         for (int i = 0; i < array.length(); i++) {
@@ -21,9 +18,10 @@ public class Strings {
 
        //Functions in strings
        String firstname="Vaibhav";
-       String lastname="patil";
+       String lastname="Patil";
 
        System.out.print(firstname.length());
+       //conacatination in strings 
        System.out.println("\n"+firstname+ " "+lastname);//joins the string
        System.out.println(firstname.charAt(1));
 

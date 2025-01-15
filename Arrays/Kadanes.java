@@ -1,8 +1,8 @@
 public class Kadanes {
     public static void kadanes(int num[]){
-        int currsum=0;
         int maxSum=Integer.MIN_VALUE;
         for(int i=0;i<num.length;i++){
+        int currsum=0;
             currsum=currsum+num[i];
             if(currsum<0){
                 currsum=0;
@@ -11,7 +11,7 @@ public class Kadanes {
             maxSum=Math.max(currsum, maxSum);
         }
 
-        System.err.println("Max subaaray sum is:"+maxSum);
+        System.err.println("Max subaaray sum is:"+ maxSum);
     }
 
     public static void maxsubaarays(int num[]){
